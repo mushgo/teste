@@ -1,0 +1,10 @@
+body 
+{   
+    justify-content: flex-end;
+    text-align: center;
+    background-color: #5B9279;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
