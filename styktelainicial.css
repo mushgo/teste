@@ -6,17 +6,15 @@ body
     background-size: 50% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    
 }
 
-a.tags {
-  border-width: 1px
-}
+
 
 .header {
     overflow: hidden;
     background-color: #5f8c78;
-    padding: 30px 10px;
+    padding: 10px 3px;
   }
   
   /* Style the header links */
@@ -67,7 +65,10 @@ a.tags {
     float: right;
   }
 
-  
+  .header a.tags{
+    border-width: 1px;
+    text-decoration: none;
+  }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
