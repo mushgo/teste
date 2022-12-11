@@ -9,6 +9,9 @@ body
     
 }
 
+img {
+    border-radius: 3%;
+    }
 
 .header {
     overflow: hidden;
