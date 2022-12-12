@@ -2,6 +2,7 @@ body
 {   
     justify-content: flex-end;
     text-align: center;
+
     background-color: #5B9279;
     background-size: 50% 100%;
     background-repeat: no-repeat;
@@ -15,7 +16,6 @@ img {
 
 .header {
     overflow: hidden;
-    background-color: #5f8c78;
     padding: 10px 3px;
   }
   
@@ -56,8 +56,6 @@ img {
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: #d6658a;
-    color: white;
     border-right: 2rem;
   }
   
@@ -70,6 +68,10 @@ img {
     border-width: 1px;
     text-decoration: none;
   }
+
+  .body .foto {
+    background-color: white;
+  }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
@@ -81,5 +83,33 @@ img {
     .header-right {
       float: none;
     }
+  }
+
+  .container .box {
+    width:90%;
+    margin-left:100px;
+    margin-top: 50px;
+    display:table;
+    margin-bottom: 50px;
+  
+  
+  }
+  .container .box .box-row {
+    display:table-row;
+    height: 200px;
+    padding: 100px;
+    background-color: white;
+  
+  }
+  .container .box .box-cell{
+    display:table-cell;
+    padding-top: 25px;
+    width: 50%;
+    float: left;
+  }
+  
+  .container .box .box-cell img{
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
