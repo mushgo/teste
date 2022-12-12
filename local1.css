@@ -112,4 +112,16 @@ img {
     margin-left: 5px;
     margin-right: 5px;
   }
-
+.coment{
+  width: 70%;
+  height: 100px;
+  margin-left: 100px;
+  border: black 2px solid;
+}
+.coment img{
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.coment p{
+  float: left;
+}
