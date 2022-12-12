@@ -1,23 +1,38 @@
 <html>
-    <title>Mushgo - Cadastro de novos locais</title>
+    <title>Mushgo - Cadastro de Locais</title>
     <head>
         <link rel="stylesheet" type="text/css" href="novolocal.css">
     </head>
     <body> 
         <div class="box1">            
             <div class="box2">
-                <h1>Cadastro</h1>
-                <input type="text" name="nome" placeholder="Digite o nome do local"> <br>
-                <br>
+                <h1>Cadastre um local!</h1>
+                <p>Nome do Local</p>
+                <input type="text" name="nome" placeholder="Digite o nome do local">
+                <p>Endereco</p>
                 <input type="text" name="endereco" placeholder="Digite o endereço do local"> <br>
+                <p>
+                    <select name="bairros" id="">
+                        <option selected>Selecione o Bairro</option>
+                        <option value="">América</option>
+                        <option value="">Atiradores</option>
+                        <option value="">Centro</option>
+                        <option value="">Comasa</option>
+                        <option value="">Saguaçu</option>
+                        <option value="">Bucarein</option>
+                        <option value="">Fátima</option>
+                        <option value="">Boehmerwald</option>
+                        <option value="">Guanabara</option>
+                        <option value="">Morro do Meio</option>
+                    </select>
+                </p>
+                <p>Descrição</p>
+                <input type="text" name="descricao" placeholder="Digite uma pequena descrição">
+                <p>Telefone</p>
+                <input type="tel" name="telefone" placeholder="Digite o telefone do local"> <br>
                 <br>
-                <input type="text" name="bairro" placeholder="Digite o bairro do local"> <br>
+                <button type="submit" style="background-color: black; color: white; width: 100px; height: 25px;" >Cadastrar</button> <br>
                 <br>
-                <input type="text" name="descricao" placeholder="Digite uma pequena descrição"> <br> <br>
-                <input type="tel" name="telefone" placeholder="Digite o telefone do local"> <br> <br>
-                <input type="text" name="social" placeholder="Digite as redes sociais ou o site"> <br>
-                <br>
-                <button type="submit" style="background-color: black; color: white; width: 100px; height: 25px;" >Criar</button> <br>
                 <a href="telainicial.html" style="color: #5B9279;"> Voltar a tela incial</a>
             </div>
         </div>
